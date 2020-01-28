@@ -13,12 +13,12 @@ class CPU:
         self.register[7] = 0xFF
 
     
-    def load(self, file_name):
+    def load(self):
         """Load a program into memory."""
 
         address = 0
         
-        with open('examples/' + file_name, 'r') as f:
+        with open(sys.argv[1]) as f:
             for line in f:
                 if line.startswith('#') or line.startswith('\n'):
                     continue
