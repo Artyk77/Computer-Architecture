@@ -34,7 +34,8 @@ words = ['PostScript', 'Moto', 'xBase', 'CFML', 'C Shell', 'Dart', 'PL/I', 'Gamb
 'Scala', 'Revolution', 'Euphoria', 'CL (OS/400)', 'CLU', 'JavaScript', 'Smarty',
 'C-Omega', 'cg', 'Fantom', 'PowerScript', 'Erlang', 'Verilog', 'NQC', 'R']
 # You may use whatever programming language you'd like.
-# Verbalize your thought process as much as possible before writing any code. Run through the UPER problem solving framework while going through your thought process.
+# Verbalize your thought process as much as possible before writing any code. 
+# Run through the UPER problem solving framework while going through your thought process.
 lower_words = []
 for w in words:
     lower_words.append(w.lower())
